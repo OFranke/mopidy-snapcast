@@ -1,3 +1,6 @@
+# usage is not recommended yet, its still under development and not secure!
+
+
 to start this thing use 
 
 docker run -d \
