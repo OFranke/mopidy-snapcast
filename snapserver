@@ -15,6 +15,6 @@ START_SNAPSERVER=true
 #   -b, --buffer arg (=1000)            buffer [ms]
 #   --pipeReadBuffer arg (=20)          pipe read buffer [ms]
 
-USER_OPTS="--user snapserver:snapserver"
+# USER_OPTS="--user mopidy:mopidy"
 
 SNAPSERVER_OPTS="-d --codec flac"
