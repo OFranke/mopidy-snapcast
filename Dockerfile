@@ -83,5 +83,5 @@ VOLUME ["/var/lib/mopidy/local", "/var/lib/mopidy/media"]
 
 EXPOSE 6600 6680 1704 1705
 
-ENTRYPOINT ["/usr/bin/dumb-init", "/entrypoint.sh"]
+# ENTRYPOINT ["/usr/bin/dumb-init", "/entrypoint.sh"]
 CMD ["/usr/bin/mopidy"]
